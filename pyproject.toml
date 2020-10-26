@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "willywonka"
+version = "0.0.0"
+description = "Python decorators for data pipelines and machine learning."
+authors = ["Bastien Boutonnet <bastien.b1@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pandas = "^1.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.1.1"
+pytest-cov = "^2.10"
+towncrier = "^19.2.0"
+ipython = "^7.18.1"
+mock = "^4.0.2"
+pytest-mock = "^3.3.1"
+coverage = "^5.3"
+bumpversion = "^0.6.0"
+mypy = "^0.790"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

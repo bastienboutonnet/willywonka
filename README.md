@@ -1,2 +1,3 @@
-# willywonka
-Python decorators for data pipelines and machine learning
+# willywonka 🍫
+
+Python decorators for data pipelines and machine learning.
