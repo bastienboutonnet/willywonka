@@ -6,7 +6,11 @@ authors = ["Bastien Boutonnet <bastien.b1@gmail.com>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = "^3.7.1"
+Faker = "^8.0.0"
+pandas = "^1.2.3"
+SQLAlchemy = "^1.4.7"
+psycopg2 = "^2.8.6"
 
 [tool.poetry.dev-dependencies]
 pre-commit = "^2.12.0"
