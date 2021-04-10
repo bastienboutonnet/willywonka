@@ -1,0 +1,12 @@
+version: "2"
+services:
+  database:
+    image: postgres
+    environment:
+      POSTGRES_USER: "willywonka_user"
+      POSTGRES_PASSWORD: "magical_password"
+      POSTGRES_DB: "willywonka_test"
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./db_setup.sql:/docker-entrypoint-initdb.d/db_setup.sql
